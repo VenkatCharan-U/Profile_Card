@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-card{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.box-1{
+    display: flex;
+    background-color: #1da1f2;
+    padding: 25px;
+    padding-bottom: 10px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #1da1f2;
+}
+.box-3{
+    display: flex;
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.media-buttons{
+    display: flex;
+    align-items: center;
+
+}
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
+    height: 34px;
+    width: 34px;
+}
+.box-5{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.social-stats{
+    display: flex;
+    align-items: center;
+}
+.social-stats .data{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.data i{
+    font-size: 18px;
+    margin-right: 6px;
+}
+.number{
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-2{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.job{
+    font-size: 15px;
+}
+.company{
+    font-size: 15px;
+}
+.box-4{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.follow-btn{
+    font-size: 10px;
+}
+.follow{
+    margin: 7px;
+    padding: 10px;
+    background-color: #0d95e8;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.message{
+    margin: 7px;
+    padding: 10px;
+    background-color: #0d95e8;
+    color: #fff;
+    display: flex;
+    border-radius: 30px;
+    width: 100px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
